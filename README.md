@@ -202,7 +202,7 @@ A coleta e o tratamento dos dados seguiram os princípios éticos da pesquisa ci
 
 Se este corpus for utilizado total ou parcialmente em trabalhos acadêmicos, cite-o da seguinte forma:
 
-> Comarim, Maria Julia Bernardo. (2025). Corpus de tweets insubordinados [se ao menos] no português do Brasil. Universidade Federal de São Carlos. Financiado pela FAPESP.
+> Comarim, Maria Julia Bernardo. (2025). Corpus de tweets insubordinados com [se ao menos] no português do Brasil. Universidade Federal de São Carlos. Financiado pela FAPESP.
 
 Você também pode incluir o link direto para este repositório no GitHub.
 
@@ -215,5 +215,22 @@ Isso significa que você pode *copiar, redistribuir, remixar, transformar e cons
 
 📘 Texto completo da licença: [CC BY-NC 4.0] https://creativecommons.org/licenses/by-nc/4.0/
 
+
+---
+## Agradecimentos
+
+Este projeto foi desenvolvido como parte da pesquisa de mestrado de *Maria Julia Bernardo Comarim* no Programa de Pós-Graduação em Linguística da *Universidade Federal de São Carlos (UFSCar)*, com financiamento da *Fundação de Amparo à Pesquisa do Estado de São Paulo* (FAPESP/ Processos nº 2023/08945-6 e 2024/08629-0), sob orientação da Profa. Dra. Flávia Bezerra de Menezes Hirata-Vale. 
+
+---
+
+## Contato
+
+Para dúvidas, sugestões ou colaborações, entre em contato:
+
+*Maria Julia Bernardo Comarim*
+
+GitHub: @mjbcomarim https://github.com/mjbcomarim
+
+Lattes: http://lattes.cnpq.br/7592091027326346
 
 ---
