@@ -12,11 +12,12 @@
 - Formato dos dados (campos e exemplos)
 - Como usar (exemplos em Python / Colab)
 - Limitações e vieses
-- Ética e conformidade
+- Ética e anonimização
+- Como citar
+- Acesso ao trabalho completo
 - Licença
-- Financiamento e citação
-- Estrutura do repositório
-- Como contribuir / contato
+- Agradecimentos
+- Contato
 
 ---
 
@@ -202,11 +203,15 @@ A coleta e o tratamento dos dados seguiram os princípios éticos da pesquisa ci
 
 Se este corpus for utilizado total ou parcialmente em trabalhos acadêmicos, cite-o da seguinte forma:
 
-> Comarim, Maria Julia Bernardo. (2025). Corpus de tweets insubordinados com [se ao menos] no português do Brasil. Universidade Federal de São Carlos. Financiado pela FAPESP.
+> COMARIM, Maria Julia Bernardo. Corpus de tweets insubordinados com [se ao menos] no português do Brasil. 2025. FAPESP Processos nº 2023/08945-6 e 2024/08629-0 – Universidade Federal de São Carlos, São Carlos, 2025.
 
 Você também pode incluir o link direto para este repositório no GitHub.
 
 ---
+
+## Acesso ao trabalho completo
+
+> COMARIM, Maria Julia Bernardo. A expressão de valores desiderativos em construções condicionais insubordinadas com [SE AO MENOS] sob um viés cognitivo construcional. 2025. Dissertação (Mestrado em Linguística) – Universidade Federal de São Carlos, São Carlos, 2025. Disponível em: https://repositorio.ufscar.br/handle/20.500.14289/22841
 
 ## Licença
 
