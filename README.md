@@ -1,6 +1,6 @@
 # Corpus de Tweets com [SE AO MENOS] insubordinado em Português – Coleta de 2021 (Anonimizado)
 
-*Resumo:* Corpus de tweets em português do Brasil desenvolvido para a investigação de mestrado em Linguística sobre construções condicionais insubordinadas com *[SE AO MENOS]. Arquivo principal em formato **JSON. Projeto financiado pela **FAPESP; dissertação disponível no repositório da **UFSCar*.
+*Resumo:* Corpus de tweets em português do Brasil desenvolvido para a investigação de mestrado em Linguística sobre construções condicionais insubordinadas com *[SE AO MENOS]*. Arquivo principal em formato *JSON*. Projeto financiado pela *FAPESP*; dissertação disponível no repositório da *UFSCar*.
 
 ---
 
@@ -22,12 +22,12 @@
 ---
 
 # Descrição
-Este repositório contém um corpus de tweets (coleta: 2021) anonimizados e preparados para análise linguística sobre o uso da construção condicional insubordinadas encabeçadas por *[se ao menos]* no português do Brasil. O arquivo fornecido é corpus_tweets.json (lista de objetos JSON), pensado para integração imediata em pipelines de PLN e para reprodução de experimentos futuros, para além da dissertação desenvolvida.
+Este repositório contém um corpus de tweets (coleta: 2021) anonimizados e preparados para análise linguística quanto ao uso da construção condicional insubordinada encabeçada por *[se ao menos]* no português do Brasil. O arquivo fornecido é corpus_tweets.json (lista de objetos JSON), pensado para integração imediata em pipelines de PLN e para reprodução de experimentos futuros, para além da dissertação desenvolvida.
 
 ---
 
 # Justificativa e objetivo da pesquisa
-O objetivo principal é investigar como a construção condicional de insubordinação com *[se ao menos]* em redes sociais — suas propriedades sintáticas, semânticas e pragmáticas. Tweets são uma fonte importante de dados espontâneos e de uso coloquial, tornando-os úteis para tais estudos de construções insubordinadas. Além disso, o trabalho buscou propor uma tipologia das construções condicionais insubordinadas com [SE AO MENOS]. Para maiores detalhes, consultar a dissertação disponível no Repositório Institucional da Universidade Federal de São Carlos.
+O objetivo principal é investigar os padrões morfossintáticos e diferentes sentido semântico-pragmáticos da construção condicional insubordinada com *[se ao menos]* aparece nas redes sociais, especificamente no Twitter. Tweets são uma fonte importante de dados espontâneos e de uso coloquial, tornando-os úteis para tais estudos de construções insubordinadas. Além disso, o trabalho buscou propor uma tipologia das construções condicionais insubordinadas com [SE AO MENOS], baseada no trabalho de D'Hertefelt (2015). Para maiores detalhes, consultar a dissertação disponível no Repositório Institucional da Universidade Federal de São Carlos (https://repositorio.ufscar.br/handle/20.500.14289/22841).
 
 ---
 
@@ -96,6 +96,26 @@ with open("corpus_tweets.json", "r", encoding="utf-8") as f:
 ocorrencias = [t for t in corpus if "se ao menos" in t["texto"].lower()]
 print("Ocorrências de 'se ao menos':", len(ocorrencias))
 ```
+
+### Exportar apenas o conteúdo textual dos tweets
+```python
+import json
+
+input_path = “endereço_do_corpus.json"
+output_path = "endereço_e_nome_do_arquivo.txt"
+
+with open(input_path, "r", encoding="utf-8") as f:
+    corpus = json.load(f)
+
+with open(output_path, "w", encoding="utf-8") as f:
+    for tweet in corpus:
+        id_ = tweet.get("id", "")  # usa 'sem_id' se não houver id
+        texto = tweet.get("texto", "").strip().replace("\n", " ")  # evita quebra de linha
+        f.write(f"{id_}\t{texto}\n")
+
+print(f" Arquivo exportado com sucesso em: {output_path}")
+```
+
 ### Exemplo no Google Colab: resumo estatístico do corpus
 ```python
 import json
