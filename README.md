@@ -27,7 +27,7 @@ Este repositório contém um corpus de tweets (coleta: 2021) anonimizados e prep
 ---
 
 # Justificativa e objetivo da pesquisa
-O objetivo principal é investigar os padrões morfossintáticos e diferentes sentido semântico-pragmáticos da construção condicional insubordinada com *[se ao menos]* aparece nas redes sociais, especificamente no Twitter. Tweets são uma fonte importante de dados espontâneos e de uso coloquial, tornando-os úteis para tais estudos de construções insubordinadas. Além disso, o trabalho buscou propor uma tipologia das construções condicionais insubordinadas com [SE AO MENOS], baseada no trabalho de D'Hertefelt (2015). Para maiores detalhes, consultar a dissertação disponível no Repositório Institucional da Universidade Federal de São Carlos (https://repositorio.ufscar.br/handle/20.500.14289/22841).
+O objetivo principal é investigar os padrões morfossintáticos e diferentes valores semântico-pragmáticos da construção condicional insubordinada com *[se ao menos]* aparece nas redes sociais, especificamente no Twitter. Tweets são uma fonte importante de dados espontâneos e de uso coloquial, tornando-os úteis para tais estudos de construções insubordinadas. Além disso, o trabalho buscou propor uma tipologia das construções condicionais insubordinadas com [SE AO MENOS], baseada no trabalho de D'Hertefelt (2015). Para maiores detalhes, consultar a dissertação disponível no Repositório Institucional da Universidade Federal de São Carlos (https://repositorio.ufscar.br/handle/20.500.14289/22841).
 
 ---
 
