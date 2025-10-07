@@ -53,7 +53,7 @@ Para garantir privacidade e reduzir risco de identificação:
 
 # Formato dos dados — campos e exemplo
 
-*Arquivo principal:* corpus_tweets.json  
+*Arquivo principal:* corpus_tweets_insub_se ao menos.json  
 *Formato:* JSON — lista de objetos. Cada objeto representa um tweet.
 
 *Campos presentes no arquivo:*
@@ -116,7 +116,7 @@ with open(output_path, "w", encoding="utf-8") as f:
 print(f" Arquivo exportado com sucesso em: {output_path}")
 ```
 
-### Exemplo no Google Colab: resumo estatístico do corpus
+### Resumo estatístico do corpus
 ```python
 import json
 import statistics
